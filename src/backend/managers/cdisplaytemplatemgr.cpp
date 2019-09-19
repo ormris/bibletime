@@ -16,6 +16,7 @@
 #include <QFileInfo>
 #include <QStringList>
 #include <QTextStream>
+#include <QDebug>
 #include "../../util/directory.h"
 #include "../config/btconfig.h"
 #include "../drivers/cswordmoduleinfo.h"

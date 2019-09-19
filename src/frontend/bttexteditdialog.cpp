@@ -53,6 +53,7 @@ BtTextEditDialog::BtTextEditDialog(QWidget* parent)
 
     m_textEdit->setAcceptRichText(true);
     m_textEdit->setAcceptDrops(true);
+    m_textEdit->setAutoFormatting(QTextEdit::AutoAll);
 
     BT_CONNECT(m_textEdit, SIGNAL(currentCharFormatChanged(QTextCharFormat)),
                this, SLOT(slotCurrentCharFormatChanged(QTextCharFormat)),

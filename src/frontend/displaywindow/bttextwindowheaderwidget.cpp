@@ -47,6 +47,7 @@ BtTextWindowHeaderWidget::BtTextWindowHeaderWidget(BtTextWindowHeader *parent, C
     m_label->setStyleSheet("QLabel{font-weight:bold}");
     layout->addWidget(m_label, 0, Qt::AlignRight);
 
+    // [mvoss]: Here's the menu
     m_button = new QToolButton( this );
     m_button->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
     m_button->setPopupMode( QToolButton::InstantPopup );
